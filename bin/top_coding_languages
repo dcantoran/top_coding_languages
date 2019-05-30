@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/languages.rb'
+require 'pry'
+
+TopCodingLanguages::CLI.new.call
